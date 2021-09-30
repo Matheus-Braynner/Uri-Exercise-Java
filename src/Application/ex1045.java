@@ -38,7 +38,7 @@ public class ex1045 {
 			System.out.println("TRIANGULO EQUILATERO");
 			}
 			 else if(a == b || b == c) {
-			System.out.println("TRIANGULO ISOCELES");
+			System.out.println("TRIANGULO ISOSCELES");
 			}
 		}
 		sc.close();
