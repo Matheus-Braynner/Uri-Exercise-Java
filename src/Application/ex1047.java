@@ -24,6 +24,9 @@ public class ex1047 {
 		if (duracaoMinutos < 0) {
 			duracaoMinutos = 60 +(minutoFinal - minutoInicial);
 			duracaoHoras--;
+			 if(duracaoHoras < 0) {
+	                duracaoHoras = 23;
+	            }
 		}
 		
 		if (horaInicial == horaFinal && minutoInicial == minutoFinal) {
